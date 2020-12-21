@@ -1,6 +1,6 @@
 <template>
+	<h3 class="cat-title">Soaps</h3>
 	<div class="page">
-		<h3 class="cat-title">Soaps</h3>
 		<div
 			class="flex-container flex-wrap catsDiv"
 			v-for="(soap, i) in soapsArr"

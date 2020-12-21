@@ -65,26 +65,21 @@ export default {
 .aboutDiv {
 	min-height: 75vh;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 }
 .brandname {
 	position: relative;
+	text-align: center;
 	color: #fff;
-	font-family: 'Homemade Apple', cursive;
-	font-size: 28px;
+	font-size: 48px;
 	text-shadow: rgb(231, 157, 20) 1px 1px;
 }
-.titleDiv {
-	position: relative;
-	top: 50px;
-	padding-top: 20px;
-	align-items: center;
-}
+
 .aboutText {
 	position: relative;
-	top: 110px;
 	text-align: justify;
+	align-self: center;
 }
 span {
 	float: left;
@@ -95,8 +90,7 @@ img {
 	margin: 10px;
 }
 
-@media (max-width: 800px) {
-	.leftText,
+@media (max-width: 768px) {
 	.aboutText {
 		flex: 100%;
 		font-size: 11px;

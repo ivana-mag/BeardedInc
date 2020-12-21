@@ -31,17 +31,21 @@ export default {
 
 <style>
 .page {
+	position: relative;
+
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	flex-direction: row;
+	width: 70vw;
+	left: 12%;
 }
 .cat-title {
 	position: relative;
-	top: 10;
-	left: 40%;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 56px;
 	text-shadow: rgb(231, 157, 20) 2px 2px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 .catsDiv {
 	color: #fff;
@@ -55,7 +59,6 @@ export default {
 	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
-	border: 1px solid #fff;
 	height: 200px;
 	width: auto;
 }

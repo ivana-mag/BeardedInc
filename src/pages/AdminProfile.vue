@@ -1,5 +1,5 @@
 <template>
-	<div class="container profileDiv page">
+	<div class="profileDiv page">
 		<div class="profile-form col-sm-12">
 			<h3>
 				<span>{{ $store.state.user.userRole }}</span> Profile

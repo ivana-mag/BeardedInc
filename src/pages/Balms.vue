@@ -1,11 +1,7 @@
 <template>
+	<h3 class="cat-title">Balms</h3>
 	<div class="page">
-		<h3 class="cat-title">Balms</h3>
-		<div
-			class="flex-container flex-wrap catsDiv"
-			v-for="(balm, i) in balmsArr"
-			:key="i"
-		>
+		<div class="catsDiv" v-for="(balm, i) in balmsArr" :key="i">
 			<div
 				class="product-card"
 				:style="{ backgroundImage: `url(${balm.filePath})` }"
@@ -17,7 +13,6 @@
 </template>
 
 <script>
-// import { http } from '../services/Http.js';
 export default {
 	name: 'Balms',
 	computed: {

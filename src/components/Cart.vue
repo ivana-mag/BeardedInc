@@ -1,5 +1,5 @@
 <template>
-	<div class="cartDiv" @mouseover="hover = true" @mouseleave="hover = false">
+	<div class="cartDiv" @mouseenter="hover = true" @mouseleave="hover = false">
 		<div class="cartImg">
 			<img
 				src="http://localhost:3000/images/shopping-bag.jpg"
@@ -38,7 +38,8 @@ export default {
 	/* height: 90vh; */
 	font-size: 1em;
 	font-family: 'Montserrat', sans-serif;
-	transition: width 2s;
+	transition: height 2s, width 2s;
+	border: 1px solid red;
 }
 .cartImg img {
 	position: absolute;
@@ -49,6 +50,7 @@ export default {
 }
 .cartDiv:hover {
 	width: 20vw;
+
 	background-color: rgba(27, 27, 27, 0.808);
 }
 .cartItems h6 {
@@ -58,6 +60,7 @@ export default {
 .cartItems div {
 	list-style: none;
 	font-size: 10px;
+	transition: width 2s;
 }
 .cart-items div p {
 	left: 20px;

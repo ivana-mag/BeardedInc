@@ -1,5 +1,5 @@
 <template>
-	<div class="homeDiv container page">
+	<div class="homeDiv page">
 		<div class="products">
 			<div class="content-div flex-container">
 				<img
@@ -68,7 +68,10 @@ export default {
 
 <style scoped>
 .homeDiv {
+	position: relative;
+	left: -20px;
 	min-height: 65vh;
+	width: 100vw;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -104,6 +107,7 @@ export default {
 }
 .socialMedia {
 	position: relative;
+	top: -80px;
 	align-self: center;
 	margin: 50px 0 100px 0;
 }
@@ -118,6 +122,8 @@ export default {
 	transform: scale(2);
 }
 .seeProduct {
+	position: relative;
+	top: -90px;
 	display: flex;
 	flex-direction: row;
 	align-content: center;
@@ -125,8 +131,8 @@ export default {
 	width: 100vw;
 }
 .prodCards {
-	height: 150px;
-	width: 250px;
+	height: 300px;
+	width: 300px;
 	background-color: #fff;
 	margin: 20px;
 }
