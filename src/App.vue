@@ -18,17 +18,17 @@ export default {
 			loginBTN: 'Login',
 		};
 	},
-	Computed: {
-		balmsArr() {
-			return this.$store.state.products.balms;
-		},
-		oilsArr() {
-			return this.$store.state.products.oils;
-		},
-		soapsArr() {
-			return this.$store.state.products.soaps;
-		},
-	},
+	// Computed: {
+	// 	balmsArr() {
+	// 		return this.$store.state.products.balms;
+	// 	},
+	// 	oilsArr() {
+	// 		return this.$store.state.products.oils;
+	// 	},
+	// 	soapsArr() {
+	// 		return this.$store.state.products.soaps;
+	// 	},
+	// },
 	created() {
 		this.$store.dispatch('setProductBalms');
 		this.$store.dispatch('setProductOils');

@@ -29,7 +29,9 @@
 			</p>
 			<h3>The Team</h3>
 			<span
-				><img src="http://localhost:3000/images/w-avatar.jpg" alt=""
+				><img
+					src="http://localhost:3000/images/avatars/w-avatar.jpg"
+					alt="Girl Silhouette"
 			/></span>
 			<p>
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -41,7 +43,9 @@
 				mollit anim id est laborum."
 			</p>
 			<span
-				><img src="http://localhost:3000/images/m-avatar.jpg" alt=""
+				><img
+					src="http://localhost:3000/images/avatars/m-avatar.jpg"
+					alt="Boy Silhouette"
 			/></span>
 			<p>
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -81,9 +85,9 @@ export default {
 	text-align: justify;
 	align-self: center;
 }
-span {
+/* span {
 	float: left;
-}
+} */
 img {
 	height: 100px;
 	width: auto;
